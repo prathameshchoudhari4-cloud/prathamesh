@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ID Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e0e0e0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .id-card {
+      background-color: #ffffff;
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      text-align: center;
+      padding: 20px;
+    }
+
+    .id-card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-top: 10px;
+    }
+
+    .id-card h2 {
+      margin: 10px 0 5px 0;
+      color: #333;
+    }
+
+    .id-card p {
+      color: #666;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="id-card">
+    <img src="https://via.placeholder.com/80" alt="Profile Picture">
+    <h2>Prathamesh</h2>
+    <p>ID: 123456</p>
+    <p>Member | Example Organization</p>
+  </div>
+
+</body>
+</html>
